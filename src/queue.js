@@ -5,17 +5,14 @@ class Queue {
 
   enqueue(value) {
     return this._storage.push(value)
-
   }
 
   dequeue() {
     return this._storage.shift()
-
   }
 
   head() {
     return this._storage[0]
-
   }
 
   tail() {
